@@ -1,0 +1,210 @@
+/***************/
+/* BASE STYLES */
+/***************/
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+*, html{
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+    font-family: "Merriweather-Bold";
+    src: url(../fonts/Merriweather-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Merriweather-BoldItalic";
+    src: url(../fonts/Merriweather-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: "SourceSansPro-Regular";
+    src: url(../fonts/SourceSansPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: "SourceSansPro-Bold";
+    src: url(../fonts/SourceSansPro-Bold.ttf);
+}
+
+/***************/
+/*** HEADER ****/
+/***************/
+
+header{
+  background-color: black;
+  border-bottom: 5px solid yellow;
+  width: 100%;
+}
+
+.logo{
+  color: yellow;
+  font-family: 'Merriweather-Bold', serif;
+  font-size: 20px;
+  padding: 15px 0 0 30px;
+}
+
+h1{
+  margin: 0;
+}
+
+.nav-bar {
+  color: white;
+  padding: 20px;
+  text-align: right;
+}
+
+li{
+  display: inline;
+  margin: 10px 10px 10px 10px;
+}
+
+.tab-bold{
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
+
+.tab-light{
+  font-family: 'SourceSansPro-Regular', sans-serif;
+  font-size: 20px;
+}
+
+/***************/
+/*SLOGAN BANNER*/
+/***************/
+
+.slogan-banner{
+  background-color: lightgray;
+  font-family: 'Merriweather-BoldItalic', serif;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+}
+
+.strikeout{
+  color: gray;
+  text-decoration: line-through;
+}
+
+.underline{
+  text-decoration: underline;
+  text-decoration-color: yellow;
+}
+
+/**************/
+/*IMAGE BANNER*/
+/**************/
+
+.coworking{
+  background-image: url("../images/coworking.jpg");
+  background-size: cover;
+  display: flex;
+  height: 500px;
+  justify-content: flex-end;
+  width: 100%;
+  margin: 0 ;
+}
+
+.transparent{
+  background-color:rgba(255, 255, 255, 0.8);
+  box-shadow: .5px .5px .5px .5px black;
+  font-family: Arial;
+  font-size: 20px;
+  height: 450px;
+  line-height: 1.7;
+  margin: 25px 15px 0 0;
+  padding: 2%;
+  width: 350px;
+}
+
+.meet-your-match{
+  font-family: 'SourceSansPro-Bold', sans-serif;
+  padding:20px 20px 0;
+}
+
+.profile-blurb{
+  font-family: 'SourceSansPro-Regular', sans-serif;
+  padding: 10px 20px 25px;
+}
+
+.button-container{
+  text-align: center;
+}
+
+.button{
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px #000000;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  margin: 3% 0;
+  padding: 2% 12%;
+  width: 90%
+}
+
+.yellow-button{
+  background-color: yellow;
+  border-bottom: 5px rgb(191, 189, 63);
+}
+
+/*************/
+/***OPTIONS***/
+/*************/
+
+.options{
+  display: flex;
+  justify-content: space-around;
+  line-height: 1.7;
+  width: 100%;
+}
+
+.option-header{
+  font-family: 'Merriweather-Bold', serif;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.option-blurb{
+  font-family: 'SourceSansPro-Regular', sans-serif;
+  font-size: 20px;
+}
+
+.create-a-profile{
+  border-right: 1px solid lightgray;
+  margin: 25px 0;
+  padding: 0px 20px 0 20px;
+}
+
+.find-a-developer{
+  border-right: 1px solid lightgray;
+  margin: 25px 0;
+  padding: 0px 20px 0 20px;
+}
+
+.find-a-designer{
+  margin: 25px 0;
+  padding: 0px 20px 0 20px;
+}
+
+.gray-button{
+  margin-top: 25px;
+}
+
+/************/
+/*COPYRIGHT*/
+/***********/
+
+footer{
+  background: black;
+  color: white;
+  font-family: 'SourceSansPro-Regular', sans-serif;
+  font-size: 20px;
+  padding: 15px 20px;
+}
