@@ -1,0 +1,267 @@
+
+/***************/
+/* BASE STYLES */
+/***************/
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+*, html{
+  margin: 0;
+  padding: 0;
+}
+
+/* fonts */
+@font-face {
+    font-family: "OpenSans-ExtraBold";
+    src: url(../fonts/Open_Sans/OpenSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: "OpenSans-Semibold";
+    src: url(../fonts/Open_Sans/OpenSans-Semibold.ttf);
+}
+
+@font-face {
+    font-family: "OpenSans-Light";
+    src: url(../fonts/Open_Sans/OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: "OpenSans-LightItalic";
+    src: url(../fonts/Open_Sans/OpenSans-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
+/***************/
+/**** HEADER ***/
+/***************/
+
+header{
+  background: #033048;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.logo{
+  padding: 20px 80px;
+}
+
+.relaxr{
+  color: white;
+  font-size: 40px;
+  font-family: "OpenSans-ExtraBold";
+}
+
+.main_nav{
+  color: #f9e42e;
+  display: flex;
+  font-family: "OpenSans-Light";
+  font-size: 24px;
+  justify-content: flex-end;
+  padding: 20px 80px;
+}
+
+.nav_element{
+  margin: 15px;
+}
+
+.nav_element:hover{
+  color: white;
+  cursor: pointer;
+}
+
+/***************/
+/*MAIN CONTENT*/
+/***************/
+
+.main-content{
+  background: #f0efef;
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px 60px 20px;
+}
+
+/***************/
+/***ARTICLES****/
+/***************/
+
+h1{
+  color:#033048;
+  font-family: "OpenSans-SemiBold";
+  font-size:40px;
+  padding: 15px 15px 15px 0;
+}
+
+.articles{
+  width: 700px;
+}
+
+.article_1, .article_2 {
+  border-bottom: .5px solid #121212;
+}
+
+img{
+  margin: 20px 0;
+}
+
+.article_content{
+  color: #606161;
+  font-family: "OpenSans-Light";
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.first_character{
+  color: #606161;
+  float: left;
+  font-family: "OpenSans-Semibold";
+  font-size: 75px;
+  line-height: 60px;
+  padding: 4px 8px 9px 3px;
+}
+
+.read_more{
+  color: #121212;
+  font-size: 24px;
+  font-family: "OpenSans-Semibold";
+  padding: 30px;
+  text-align: right;
+}
+
+.read_more:hover{
+  color:gray;
+  cursor: pointer;
+}
+
+.read_less{
+  color: #121212;
+  font-size: 24px;
+  font-family: "OpenSans-Semibold";
+  padding: 30px;
+  text-align: right;
+}
+
+.read_less:hover{
+  color:gray;
+  cursor: pointer;
+}
+
+
+.header_2{
+  padding-top: 40px;
+}
+
+/***************/
+/***SIDEBAR****/
+/***************/
+
+.sidebar{
+  margin-left: 50px;
+  width: 240px;
+}
+
+.sidebar_header{
+  color: #033048;
+  font-family: "OpenSans-ExtraBold";
+  font-size: 32px;
+  padding: 15px 0;
+}
+
+.category_list_item{
+  color: #606161;
+  font-family: "OpenSans-Light";
+  font-size: 24px;
+  padding: 5px 0;
+}
+
+.category_list_item:hover{
+  color: gray;
+  cursor: pointer;
+}
+
+.about_content{
+  color: #606161;
+  font-family: "OpenSans-Light";
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+.learn_more{
+  color: #033048;
+  font-family: "OpenSans-SemiBold";
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.learn_more:hover{
+  color: gray;
+  cursor: pointer;
+}
+
+.ad_unit{
+  padding-top: 40px;
+}
+
+/***************/
+/****SIGN UP****/
+/***************/
+
+.sign_up_banner{
+  align-items: center;
+  background: #f9e42e;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+}
+
+.sign_up_button{
+  background-color: #033048;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-family: "OpenSans";
+  font-size: 24px;
+  padding: 15px 50px;
+}
+
+.sign_up_button:hover{
+  color: yellow;
+  cursor: pointer;
+}
+
+/***************/
+/*****FOOTER****/
+/***************/
+
+footer{
+  text-align: center;
+  background: #121212;
+}
+
+.relaxr_yellow{
+  color: #f9e42e;
+  padding: 50px;
+}
+
+.social_logo{
+  margin: 20px;
+}
+
+.social_logo:hover{
+  cursor: pointer;
+}
+
+.copyright_text{
+  color: white;
+  font-family: "OpenSans";
+  font-size: 18px;
+  padding: 40px 0 20px;
+}
